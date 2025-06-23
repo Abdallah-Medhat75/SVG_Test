@@ -7,6 +7,16 @@ const frontLegs = document.getElementsByClassName("front-legs");
 const frontLegsUnder = document.getElementsByClassName("front-legs-under");
 const backLegs = document.getElementsByClassName("back-legs");
 const backLegsUnder = document.getElementsByClassName("back-legs-under");
+const triceps = document.getElementsByClassName("triceps");
+const shouldersBack = document.getElementsByClassName("shoulders-back");
+const trabasFront = document.getElementsByClassName("trbas-front");
+const triUnderFront = document.getElementsByClassName("tri-under-front");
+const triUnderBack = document.getElementsByClassName("tri-under-back");
+const dirBack = document.getElementsByClassName("dir-back");
+const upperBack = document.getElementsByClassName("upper-back");
+const centerBack = document.getElementsByClassName("center-back");
+const handsBack = document.getElementsByClassName("hands-back");
+const handsFront = document.getElementsByClassName("hands-front");
 // Inner - Start Body Parts Arrays
 // let shouldersArray = [...shoulders]; // Error Lexically name
 const shouldersArr = [...shoulders];
@@ -17,6 +27,16 @@ const frontLegsArr = [...frontLegs];
 const frontLegsUnderArr = [...frontLegsUnder];
 const backLegsArr = [...backLegs];
 const backLegsUnderArr = [...backLegsUnder];
+const tricepsArr = [...triceps];
+const shouldersBackArr = [...shouldersBack];
+const trabasFrontArr = [...trabasFront];
+const triUnderFrontArr = [...triUnderFront];
+const triUnderBackArr = [...triUnderBack];
+const dirBackArr = [...dirBack];
+const upperBackArr = [...upperBack];
+const centerBackArr = [...centerBack];
+const handsBackArr = [...handsBack];
+const handsFrontArr = [...handsFront];
 // Inner - End Body Parts Arrays
 // Inner - Start Redirects Array
 
@@ -50,3 +70,13 @@ colorChanger(frontLegsArr);
 colorChanger(backLegsArr);
 colorChanger(backLegsUnderArr);
 colorChanger(frontLegsUnderArr);
+colorChanger(tricepsArr);
+colorChanger(shouldersBackArr);
+colorChanger(trabasFrontArr);
+colorChanger(triUnderFrontArr);
+colorChanger(triUnderBackArr);
+colorChanger(dirBackArr);
+colorChanger(upperBackArr);
+colorChanger(centerBackArr);
+colorChanger(handsBackArr);
+colorChanger(handsFrontArr);
