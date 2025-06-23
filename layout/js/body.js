@@ -3,12 +3,14 @@ const shoulders = document.getElementsByClassName("shoulders");
 const biceps = document.getElementsByClassName("biceps");
 const chests = document.getElementsByClassName("chests");
 const six = document.getElementsByClassName("six");
+const frontLegs = document.getElementsByClassName("front-legs");
 // Inner - Start Body Parts Arrays
 // let shouldersArray = [...shoulders]; // Error Lexically name
 const shouldersArr = [...shoulders];
 const bicepsArr = [...biceps];
 const chestsArr = [...chests];
 const sixArr = [...six];
+const frontLegsArr = [...frontLegs];
 // Inner - End Body Parts Arrays
 // Inner - Start Redirects Array
 
@@ -38,3 +40,4 @@ colorChanger(shouldersArr);
 colorChanger(bicepsArr);
 colorChanger(chestsArr);
 colorChanger(sixArr);
+colorChanger(frontLegsArr);
